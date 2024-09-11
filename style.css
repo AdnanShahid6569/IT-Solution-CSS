@@ -1,0 +1,411 @@
+/* Navbar Start */
+
+.navbar {
+    background: linear-gradient(90deg, rgb(57, 57, 186), rgb(2, 2, 57));
+}
+.navbutton-list{
+    margin-left: 15em; 
+    padding: 2px 25px 2px 25px;
+    background: linear-gradient(90deg,rgb(2, 2, 57),rgb(57, 57, 186));
+}
+.navbar-brand{
+    margin-left: 80px;
+}
+.navbar-nav {
+    margin-left: 80px;
+}
+
+@media only screen and (max-width:480px){
+    .navbar-brand{
+        margin-left: 1px !important;
+    }
+    .navbar-nav {
+        margin-left: -50px !important;
+    }
+    .navbutton-list{
+        width: 55%;   
+        font-size: 15px !important;
+        margin-left:7em !important;
+    }
+    .navbutton-list a{
+        padding: 3px 5px 3px 5px !important;
+        width: 100% !important;
+
+    }
+}
+/* Navbar Start */
+
+/* Image Section Start */
+.section-image {
+    background: linear-gradient(90deg, rgb(2, 2, 57), rgb(57, 57, 186));
+    height: 600px;
+}
+
+.img-content {
+    position: absolute;
+    z-index: 1;
+}
+
+.img-content h1 {
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 65%;
+}
+
+.img-content p {
+    word-spacing: 2px;
+    width: 65%;
+
+}
+
+.img-content a {
+    font-size: 20px;
+    background: linear-gradient(rgba(211, 42, 144, 0.881), rgb(228, 97, 40));
+
+}
+
+
+.image-home {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media only screen and (max-width:480px) {
+    .section-image {
+        height: 400px;
+    }
+
+    .image-home img {
+        display: none;
+    }
+
+    .img-content {
+        width: 100%;
+        height: 300px;
+    }
+
+    .img-content h1 {
+        width: 80%;
+        font-size: 35px;
+    }
+
+    .img-content p {
+        width: 80%;
+        font-size: 15px;
+    }
+    .img-content-btn{
+        font-size: 14px !important;
+        font-weight: bold !important;
+        padding: 10px 20px !important;
+    }
+}
+
+/* Image Section End */
+
+/* Body Section 2 Start */
+.section-padding{
+    padding: 100px 0;
+}
+.Section-2 h3{
+    width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Section-2 h3:hover{
+    color: blue;
+}
+.cardstyle:hover{
+    background: linear-gradient(pink, rgb(238, 143, 70));
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:480px){
+    .Section-2 h3{
+        width: 100%;
+    }
+}
+/* Body Section 2 End */
+
+/* Body Section 3 Start */
+
+.section-3-content p a{
+    font-size: 20px;
+    background: linear-gradient(rgba(211, 42, 144, 0.881), rgb(228, 97, 40));
+}
+.section-3-content h1{
+    width: 100%;
+}
+
+@media only screen and (max-width:480px){
+    .Section-3-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .Section-3-image{
+        width: 90%;
+    }
+    .section-3-content h1{
+        width: 80%;
+        font-size: 25px !important;
+
+    }
+    .section-3-content p{
+        font-size: 13px !important;
+    }
+    .section-3-content img{
+        width: 20%;
+        height: 20%;
+    }
+    .section-3-content div h4{
+        font-size: 15px;
+    }
+    .section-3-content div p{
+        font-size: 13px;
+    }
+    .section-3-btn a{
+        font-size: 14px !important;
+        font-weight: bold !important;
+        padding: 10px 20px !important;
+    }
+
+}
+/* Body Section 3 End */
+
+/* Body Section 4 Start */
+@media only screen and (max-width:480px){
+    .section-4-link{
+        font-size: 15px !important;
+    }
+    .section-4-redhead{
+        font-size: 16px !important;
+    }
+    .section-4-div-2 p{
+        font-size: 17px !important;
+    }
+}
+/* Body Section 4 End */
+
+/* Body Section 5 Start */
+
+.section-5-content-btn{
+    font-size: 20px;
+    background: linear-gradient(rgba(211, 42, 144, 0.881), rgb(228, 97, 40));   
+}
+.section-5-head{
+    font-size: 40px;
+}
+.section-5-para{
+    font-size: 20px;
+    word-spacing: 2px;
+}
+.section-5-box p{
+    font-size: 20px;
+}
+@media only screen and (max-width:480px){
+    .section-5-head{
+        font-size: 25px;
+    }
+    .section-5-para{
+        font-size: 15px;
+    }
+    .section-5-content-btn {
+        font-size: 14px !important;
+        font-weight: bold !important;
+        padding: 10px 20px ;
+    }
+    .section-5-box{
+        margin-left: 10px;
+        margin-bottom: 12px !important;
+        padding-left: 5px !important;
+    }
+    .section-5-box p{
+        font-size: 19px !important;
+    }
+
+}
+/* Body Section 5 End */
+
+/* Body Section 5 Start */
+.section-6-head{
+    font-size: 50px;
+    text-align: center;
+    word-spacing: 2px;
+    color: rgb(10, 10, 88);
+}
+.section-6-para{
+    word-spacing: 2px;
+    line-height: 30px;
+}
+.div1,.div2,.div3 p{
+    line-height: 20px;
+}
+.div1{
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    background-image: linear-gradient(rgba(156, 91, 91, 0.608), rgba(97, 110, 181, 0.5)), url("img/stuffs1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div2{
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    background-image: linear-gradient(rgba(156, 91, 91, 0.608), rgba(97, 110, 181, 0.5)), url("img/stuffs2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div3{
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    background-image: linear-gradient(rgba(156, 91, 91, 0.608), rgba(97, 110, 181, 0.5)), url("img/stuffs3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width:480px){
+    .section-6-head{
+        font-size: 25px;
+    }
+    .section-6-para{
+        word-spacing: 1px;
+        font-size: 20px !important;
+        line-height: 23px;
+    }
+}
+/* Body Section 6 End */
+
+/* Body Section 7 Start */
+.Section7-img {
+    width: 100%;
+    height: 650px;
+    background: linear-gradient(90deg, rgba(62, 62, 154, 0.2), rgba(118, 21, 118, 0.4)), url("img/section_bg01.jpg")no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-7-head{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.section-7-btn a {
+    background-color: white;
+    color: rgb(136, 19, 58);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+
+.section7-img p a:hover {
+    color: white;
+    background-color: rgb(10, 10, 88);
+}
+@media only screen and (max-width:480px){
+    .section7-img{
+        text-align: center;
+    }
+    .section-7-head{
+        font-size: 25px;
+        width: 70%;
+    }
+    .section-7-btn a{
+        border-radius: 12px;
+        font-size: 14px !important;
+        font-weight: bold;
+        padding: 10px 20px;
+    }
+}
+
+/* Body Section 7 End */
+
+/* Footer Start */
+.footer-main{
+    background-color: antiquewhite;
+}
+.footer-para {
+    font-size: 18px;
+    margin-top: 35px;
+}
+.footer-number {
+    text-decoration: none;
+}
+.footer-ul {
+    margin-top: 30px;
+}
+.footer-ul li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.footer-ul li a {
+
+    text-decoration: none;
+    font-size: 17px;
+}
+.footer-div3 input {
+    width: 100%;
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 20px;
+    border-color: gray;
+    outline: none;
+}
+.footer-div3 input::placeholder {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-end {
+    background-color: rgb(247, 210, 162);
+}
+.footer-end span {
+    color: rgb(119, 19, 36);
+    font-weight: bold;
+}
+@media only screen and (max-width:480px){
+    .footer-para {
+        font-size: 16px !important;
+    }
+    .footer-ul li {
+        margin-bottom: 10px;
+    }
+    .footer-ul li a {
+        font-size: 15px;
+    }
+    .footer-div3 input{
+        font-size: 15px;
+        padding: 5px;
+        width: 80%;
+    }
+    .footer-div3 input::placeholder {
+        font-size: 17px;
+    }
+}
+
+/* Footer End */
+
+
+
+
